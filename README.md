@@ -1,13 +1,13 @@
-# RIDL-HexD
+# RIDL-Hex (Rotation Invariant Dictionary Learning using Hexagonal sampling)
 ======
-RIDL-HexD is an efficient sparse dictionary learning algorithm for extracting rotation-aware or rotation-invariant features from images.
-RIDL-HexD benefits from a novel hexagonal sampling grid, a modified rotation-invariant sparse coding (based on  Orthogonal Matching Pursuit) and a rotation learning algorithm, based on an exponentiated-gradient algorithm, for updating the dictionary matrix. 
-The dictionary elements in RIDL-HexD are parametrized by their orientation, and a wide range of patterns can be well represented with a small dictionary size. RIDL-HexD achieves faster convergence than other dictionary learning algorithms not using this type of parameterization. 
+RIDL-Hex is an efficient sparse dictionary learning algorithm for extracting rotation-aware or rotation-invariant features from images.
+RIDL-Hex benefits from a novel hexagonal sampling grid, a modified rotation-invariant sparse coding (based on  Orthogonal Matching Pursuit) and a rotation learning algorithm, based on an exponentiated-gradient algorithm, for updating the dictionary matrix. 
+The dictionary elements in RIDL-Hex are parametrized by their orientation, and a wide range of patterns can be well represented with a small dictionary size. RIDL-Hex achieves faster convergence than other dictionary learning algorithms not using this type of parameterization. 
 
 
 Requirements
 ======
-This implementation of X is based on python 2.7 and requires following python packages:
+This implementation of RIDL-Hex is based on python 2.7 and requires following python packages:
 
 Main dependencies:
 - numpy 
